@@ -4,9 +4,5 @@ metadata:
   name: result
 data:
   name: {{ .Values.name }}
-  secret: {{ .Values.secret }}
-  config: {{ .Values.config }}
   fleetyaml: {{ .Values.fleetyaml }}
   englishname: {{ .Values.options.english.name }}
-  optionconfigmap: {{ .Values.options.onlyconfigmap }}
-  optionsecret: {{ .Values.options.onlysecret }}
