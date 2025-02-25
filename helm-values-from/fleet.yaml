@@ -1,6 +1,6 @@
 helm:
   values:
-    name: name from fleet.yaml
+    name: fleet-helm-test
     fleetyaml: from fleet.yaml
     options:
       english:
