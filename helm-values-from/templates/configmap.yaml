@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: result
+  name: {{ .Values.name }}
 data:
   name: {{ .Values.name }}
   fleetyaml: {{ .Values.fleetyaml }}
